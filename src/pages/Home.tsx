@@ -1,11 +1,13 @@
 function Home() {
     return (
       <div>
-        <h1>Welcome to the WINLAB Aria Blog</h1>
-        <p>This site documents our 2025 research using Meta Aria Glasses for sign language translation.</p>
+        <h1>WINLAB Project Aria 2025</h1>
+        <p>
+          This blog documents our research on sign language translation using Meta Aria glasses.
+          Explore weekly updates, tech demos, and learn about the team.
+        </p>
       </div>
     );
   }
-  
   export default Home;
   

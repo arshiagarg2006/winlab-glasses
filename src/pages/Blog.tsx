@@ -1,11 +1,17 @@
 function Blog() {
     return (
       <div>
-        <h1>Welcome to the WINLAB Aria Blog</h1>
-        <p>This site documents our 2025 research using Meta Aria Glasses for sign language translation.</p>
+        <h2>Blog Updates</h2>
+        <article>
+          <h3>Week 1 – Setup & Recording</h3>
+          <p>We configured the Aria system and captured isolated signs using SLAM-based tracking.</p>
+        </article>
+        <article>
+          <h3>Week 2 – Feature Engineering</h3>
+          <p>We processed recordings with MPS and began extracting landmark-based features for modeling.</p>
+        </article>
       </div>
     );
   }
-  
   export default Blog;
   
