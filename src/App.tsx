@@ -1,35 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="app">
+      <header className="header">
+        <h1>WINLAB Project Aria Blog – 2025</h1>
+        <p className="tagline">Research updates from Rutgers WINLAB</p>
+      </header>
+
+      <main className="blog">
+        <article className="post">
+          <h2>Week 1: Project Setup & Data Collection</h2>
+          <p>
+            We configured the Gen 1 Meta Aria glasses and began recording isolated sign gestures using SLAM-based camera tracking. Initial hand-tracking results look promising!
+          </p>
+        </article>
+
+        <article className="post">
+          <h2>Week 2: Processing with MPS</h2>
+          <p>
+            Using Meta’s Machine Perception Services (MPS), we converted the VRS files into hand landmark data. Next step: feature extraction and sign labeling.
+          </p>
+        </article>
+
+        <p className="footer">More updates coming soon...</p>
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
