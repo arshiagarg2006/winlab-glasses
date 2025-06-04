@@ -1,17 +1,15 @@
-/* index.css */
 :root {
   --bg-color: #121212;
-  --text-color: #aad8ff;
+  --text-color: #e0f2ff;
   --accent-color: #3b82f6;
   --card-bg: #1e1e1e;
-  --border-radius: 12px;
-  --font-stack: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --font-stack: 'Segoe UI', Roboto, sans-serif;
+  --radius: 12px;
 }
 
 body {
   margin: 0;
-  padding: 0;
-  background-color: var(--bg-color);
+  background: var(--bg-color);
   color: var(--text-color);
   font-family: var(--font-stack);
 }
