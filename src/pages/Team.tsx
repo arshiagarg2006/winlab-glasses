@@ -6,8 +6,7 @@ function Team() {
         <ul>
           <li>Arshia Garg – Researcher</li>
           <li>Neil Samant – Researcher</li>
-          <li>[Mentor Name] – Faculty Advisor</li>
-          <li>[Teammate Name] – Data Scientist</li>
+          <li>Yao Liu – Faculty Advisor</li>
         </ul>
       </div>
     );
