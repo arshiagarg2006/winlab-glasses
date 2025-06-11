@@ -53,14 +53,19 @@ function Blog() {
       <article className="space-y-4">
         <h3 className="text-2xl font-semibold">Week 3 - Labeling</h3>
         <p>
-          _
+          This week, we narrowed our project scope to focus on eye strain and attention tracking,
+          though hand-based applications remain a secondary possibility. Our primary goal is to use
+          RGB and eye tracking data in tandem with SLAM data to identify user fatigue and attention shifts.
         </p>
         <p>
-          _
+          We explored different data streaming profiles and frame rates to evaluate system performance.
+          Additionally, we began using Roboflow to annotate and train a model for blink rate detection.
+          While attempting eye detection with HuggingFace models and others, we found many required full-face
+          input rather than just eyes, leading to dataset and model refinement.
         </p>
         <div className="aspect-w-16 aspect-h-9">
           <iframe
-            src="https://docs.google.com/presentation/d/1fmVSHCj6VlY5i-AhQ0q6xjYVISlW5xV-SetOIl6jdJU/embed?start=false&loop=false&delayms=3000"
+            src="https://docs.google.com/presentation/d/e/2PACX-1vRKe-_ITxtSE5-5sKXpRcheeXddcGU4nrslvIewV06HZfciZ8FF2eBmh6ToDZooDFtMsOKVlYhp64XC/pubembed?start=false&loop=false&delayms=3000"
             width="100%"
             height="480"
             allowFullScreen
