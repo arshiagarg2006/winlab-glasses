@@ -50,6 +50,25 @@ function Blog() {
         </div>
       </article>
 
+      <article className="space-y-4">
+        <h3 className="text-2xl font-semibold">Week 3 - Labeling</h3>
+        <p>
+          _
+        </p>
+        <p>
+          _
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            src="https://docs.google.com/presentation/d/1fmVSHCj6VlY5i-AhQ0q6xjYVISlW5xV-SetOIl6jdJU/embed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 3 Presentation"
+          ></iframe>
+        </div>
+      </article>
+
       {/* Add more weeks here following the same structure */}
 
     </div>
