@@ -2,7 +2,7 @@
 
 ## Neil Samant and Arshia Garg
 
-### Current Deployment: https://winlab2025-arglasses.vercel.app/
+### Current Deployment: https://winlab2025-ariaglasses.vercel.app/
 
 
 # React + TypeScript + Vite
