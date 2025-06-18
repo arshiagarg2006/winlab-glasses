@@ -74,6 +74,31 @@ function Blog() {
         </div>
       </article>
 
+      <article className="space-y-4">
+        <h3 className="text-2xl font-semibold">Week 4 - Labeling</h3>
+        <p>
+        This week, we focused on refining our eye tracking and RGB-based system for detecting visual focus 
+        and eye strain. Using the MPS Viewer, we successfully overlaid eye gaze angles on RGB streams to visualize 
+        attention patterns. We also continued training object detection models in Roboflow and saw promising results 
+        using pre-trained YOLO models to identify on-screen items with high accuracy.
+        </p>
+        <p>
+        In parallel, we developed a script that monitors new image creation and feeds them into our model 
+        for real-time predictions. This sets the stage for an alert system based on blink patterns—potentially 
+        warning users about prolonged eye closure or signs of fatigue.
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTzxqAsdvCA4ip2HwStikfQXxePjsxj4_VEm8yrm-2YGzucaqhjfwoXCT2fnZjmNUJNbMQaBXgjzDHx/pubembed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 4 Presentation"
+          ></iframe>
+        </div>
+      </article>
+
+
       {/* Add more weeks here following the same structure */}
 
     </div>
