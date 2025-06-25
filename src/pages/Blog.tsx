@@ -98,6 +98,31 @@ function Blog() {
         </div>
       </article>
 
+      <article className="space-y-4">
+        <h3 className="text-2xl font-semibold">Week 5 - Eye Glint</h3>
+        <p>
+        We modified the Project Aria codebase to allow direct image input into the eye tracking model, enabling 
+        real-time inference instead of relying on recorded VRS files. We discovered that the model’s use of infrared 
+        glints could also indicate whether the eyes are open or closed, eliminating the need for a separate 
+        eye state classifier. Aria’s built-in IR LEDs create glint patterns that, when absent, typically indicate 
+        eye closure, unless the user is looking upward, in which case a high pitch value helps disambiguate.
+        </p>
+        <p>
+        We batch-tested eye images, validated predictions using both glint detection and model uncertainty, 
+        and built a temporary visualization tool to show gaze points. This improved the reliability of gaze 
+        estimation and established a method for labeling frame-level prediction quality.
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vS4fJ5Nce6AIIWo-PYVlBVagyqFHR75BUyy1rdxYd9JrWPDs_VKG_fS4DQD5XeJdH-uH_bWN2A3RkDE/pubembed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 5 Presentation"
+          ></iframe>
+        </div>
+      </article>
+
 
       {/* Add more weeks here following the same structure */}
 
