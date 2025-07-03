@@ -124,6 +124,28 @@ function Blog() {
       </article>
 
 
+      <article className="space-y-4">
+        <h3 className="text-2xl font-semibold">Week 6 - Real-Time Optimization</h3>
+        <p>
+        This week, we focused on improving the performance and reliability of our eye strain detection pipeline. We finalized a method to detect closed eyes using infrared glints, pitch angles, and model uncertainty—achieving ~95% accuracy. This eliminated the need for a separate eye state classifier.
+        </p>
+        <p>
+        We also addressed increasing delays in inference timing. While shorter recordings (under 30s) processed within 5 seconds, longer sessions saw delays of 25–35 seconds. To mitigate this, we began testing lighter YOLOv8 models and reduced the inference frequency to one frame every 0.5 seconds.
+        </p>
+        <p>
+          Additionally, we continued experimenting with gaze-guided object detection. While results were promising, occasional misses and latency indicated the need for further optimization. Finally, we began designing a GUI dashboard and implemented CSV-based logging of real-time object predictions for future analysis.
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            src="https://docs.google.com/presentation/d/168ELTqS3cjrkbcRBkhiZBawtU9z1DwSYoAHbKycNdZs/edit?usp=sharing"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 6 Presentation"
+          ></iframe>
+        </div>
+      </article>
+
       {/* Add more weeks here following the same structure */}
 
     </div>
