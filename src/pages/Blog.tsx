@@ -65,7 +65,7 @@ function Blog() {
         </p>
         <div className="aspect-w-16 aspect-h-9">
           <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vRKe-_ITxtSE5-5sKXpRcheeXddcGU4nrslvIewV06HZfciZ8FF2eBmh6ToDZooDFtMsOKVlYhp64XC/pubembed?start=false&loop=false&delayms=3000"
+            src="hhttps://docs.google.com/presentation/d/e/2PACX-1vRKe-_ITxtSE5-5sKXpRcheeXddcGU4nrslvIewV06HZfciZ8FF2eBmh6ToDZooDFtMsOKVlYhp64XC/embed?start=false&loop=false&delayms=3000"
             width="100%"
             height="480"
             allowFullScreen
