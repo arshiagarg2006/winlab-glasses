@@ -137,12 +137,12 @@ function Blog() {
         </p>
         <div className="aspect-w-16 aspect-h-9">
           <iframe
-            src="https://docs.google.com/presentation/d/168ELTqS3cjrkbcRBkhiZBawtU9z1DwSYoAHbKycNdZs/edit?usp=sharing"
-            width="100%"
-            height="480"
-            allowFullScreen
-            title="Week 6 Presentation"
-          ></iframe>
+  src="https://docs.google.com/presentation/d/168ELTqS3cjrkbcRBkhiZBawtU9z1DwSYoAHbKycNdZs/embed?start=false&loop=false&delayms=3000"
+  width="100%"
+  height="480"
+  allowFullScreen
+  title="Week 6 Presentation"
+></iframe>
         </div>
       </article>
 
