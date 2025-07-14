@@ -137,12 +137,36 @@ function Blog() {
         </p>
         <div className="aspect-w-16 aspect-h-9">
           <iframe
-  src="https://docs.google.com/presentation/d/168ELTqS3cjrkbcRBkhiZBawtU9z1DwSYoAHbKycNdZs/embed?start=false&loop=false&delayms=3000"
-  width="100%"
-  height="480"
-  allowFullScreen
-  title="Week 6 Presentation"
-></iframe>
+            src="https://docs.google.com/presentation/d/168ELTqS3cjrkbcRBkhiZBawtU9z1DwSYoAHbKycNdZs/embed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 6 Presentation"
+          ></iframe>
+        </div>
+      </article>
+
+      <article className="space-y-4">
+        <h3 className="text-2xl font-semibold">Week 7 - Dashboard and Real Time Feedback</h3>
+        <p>
+          In Week 7, we advanced our pipeline by combining gaze-based predictions with object detection results to
+          infer user focus contextually. This multi-modal fusion allows us to distinguish whether the user is actively 
+          engaging with detected objects or passively glancing, improving our attention modeling capabilities.
+        </p>
+        <p>
+          We also finalized our real-time feedback loop by integrating the fatigue signal (derived from blink rate, 
+          glint loss, and pitch angle) into a lightweight user notification system. This prototype issues warnings when 
+          it detects sustained visual strain. Our early tests with longer recording sessions showed encouraging accuracy 
+          and responsiveness.
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTHxSJmFV1_oM4_iB2Xh1oF4JIBxSlcP1C5Vkyan3eXJQ_qKREgG6oNEadBu-2LsKLu6AVx-4SmwMnE/pubembed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 7 Presentation"
+          ></iframe>
         </div>
       </article>
 
