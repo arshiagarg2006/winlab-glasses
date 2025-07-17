@@ -137,12 +137,59 @@ function Blog() {
         </p>
         <div className="aspect-w-16 aspect-h-9">
           <iframe
-  src="https://docs.google.com/presentation/d/168ELTqS3cjrkbcRBkhiZBawtU9z1DwSYoAHbKycNdZs/embed?start=false&loop=false&delayms=3000"
-  width="100%"
-  height="480"
-  allowFullScreen
-  title="Week 6 Presentation"
-></iframe>
+            src="https://docs.google.com/presentation/d/168ELTqS3cjrkbcRBkhiZBawtU9z1DwSYoAHbKycNdZs/embed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 6 Presentation"
+          ></iframe>
+        </div>
+      </article>
+
+      <article className="space-y-4">
+        <h3 className="text-2xl font-semibold">Week 7 - Dashboard and Real Time Feedback</h3>
+        <p>
+          In Week 7, we advanced our pipeline by combining gaze-based predictions with object detection results to
+          infer user focus contextually. This multi-modal fusion allows us to distinguish whether the user is actively 
+          engaging with detected objects or passively glancing, improving our attention modeling capabilities.
+        </p>
+        <p>
+          We also finalized our real-time feedback loop by integrating the fatigue signal (derived from blink rate, 
+          glint loss, and pitch angle) into a lightweight user notification system. This prototype issues warnings when 
+          it detects sustained visual strain. Our early tests with longer recording sessions showed encouraging accuracy 
+          and responsiveness.
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTHxSJmFV1_oM4_iB2Xh1oF4JIBxSlcP1C5Vkyan3eXJQ_qKREgG6oNEadBu-2LsKLu6AVx-4SmwMnE/pubembed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 7 Presentation"
+          ></iframe>
+        </div>
+      </article>
+
+      <article className="space-y-4">
+        <h3 className="text-2xl font-semibold">Week 8 - Orbit and more Dashboard</h3>
+        <p>
+          In Week 8, We’ve added a new feature that detects when a user is continuously looking at a laptop screen. 
+          If the user maintains focus for 15 seconds, the dashboard now triggers a gentle break reminder popup. This 
+          resets automatically when attention shifts to a different object.
+        </p>
+        <p>
+        On the infrastructure side, we successfully set up YOLO inference on the ORBIT node, using local port 
+        forwarding to access predictions in real time. We're now able to stream camera input, run inference remotely, 
+        and receive object detection results locally with the alert system fully functional.
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTJRmm2oMOQtJ7mIzC8-es8XRhgqdoH7q-7yoCTi7aVA7ChIjWqfQmQ2oZJjdjs_TAh0ZXVN7bnwvgp/pubembed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 8 Presentation"
+          ></iframe>
         </div>
       </article>
 
