@@ -193,6 +193,27 @@ function Blog() {
         </div>
       </article>
 
+      <article className="space-y-4">
+        <h3 className="text-2xl font-semibold">Week 9 - Orbit and more Dashboard</h3>
+        <p>
+          In Week 9, we added two interaction modes to the system: <strong>Working</strong> (based on the existing 15-second screen engagement 
+          logic) and <strong>Resting</strong> (triggered when a user looks at the screen for only 2 seconds).
+          A guardrail check was implemented to ensure that mode-switching only occurs when the session is active.
+        </p>
+        <p>
+        We also ran the full pipeline using YOLO inferences on the ORBIT node with CUDA acceleration.
+        </p>
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vQ1XjKNeiGnJYNMdYc2G2NjlxTiVfl5bLKkpyH3yvyyOuTLUMi7k1BIwbo1uHcuf5grj46Ond-Rfzec/pubembed?start=false&loop=false&delayms=3000"
+            width="100%"
+            height="480"
+            allowFullScreen
+            title="Week 9 Presentation"
+          ></iframe>
+        </div>
+      </article>
+
       {/* Add more weeks here following the same structure */}
 
     </div>
