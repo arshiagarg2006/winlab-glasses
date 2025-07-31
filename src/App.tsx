@@ -16,9 +16,9 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/demo">Demo</Link>
+        <Link to="/final">Final Presentation</Link>
         <Link to="/resources">Resources</Link>
         <Link to="/team">Team</Link>
-        <Link to="/final">Final</Link>
         <button
           onClick={toggleTheme}
           style={{
@@ -42,9 +42,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/demo" element={<Demo />} />
+        <Route path="/final" element={<Final />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/final" element={<Final />} />
       </Routes>
     </div>
   );
