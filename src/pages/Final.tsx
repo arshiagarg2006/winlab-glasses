@@ -1,10 +1,9 @@
 function Final() {
     return (
       <div className="p-6 space-y-10">
-        <h2 className="text-3xl font-bold">Final Product</h2>
+        <h2 className="text-3xl font-bold">Final Presentation</h2>
   
         <article className="space-y-4">
-          <h3 className="text-2xl font-semibold">Final Presentation</h3>
           
           <div className="aspect-w-16 aspect-h-9">
             <iframe
