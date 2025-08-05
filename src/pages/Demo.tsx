@@ -6,11 +6,19 @@ export default function Demo() {
       <h1>Aria Glasses Demo</h1>
 
       {/* YouTube Video Embed */}
-      <div style={{ borderRadius: "12px", overflow: "hidden", maxWidth: "800px", width: "100%", marginBottom: "2rem" }}>
+      <div
+        style={{
+          borderRadius: "12px",
+          overflow: "hidden",
+          maxWidth: "800px",
+          width: "100%",
+          marginBottom: "2rem",
+        }}
+      >
         <iframe
           width="100%"
           height="450"
-          src="https://www.youtube.com/embed/_oIUIdmORwug"
+          src="https://www.youtube.com/embed/oIUIdmORwug"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
