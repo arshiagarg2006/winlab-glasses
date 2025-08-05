@@ -6,7 +6,7 @@ export default function Demo() {
       <h1>Aria Glasses Demo</h1>
 
       {/* YouTube Video Embed */}
-      <div style={{ marginBottom: "2rem" }}>
+      <div style={{ borderRadius: "12px", overflow: "hidden", maxWidth: "800px", width: "100%", marginBottom: "2rem" }}>
         <iframe
           width="100%"
           height="450"
@@ -15,7 +15,6 @@ export default function Demo() {
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-          style={{ borderRadius: "12px", maxWidth: "800px" }}
         ></iframe>
       </div>
 
