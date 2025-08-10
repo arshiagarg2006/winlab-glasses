@@ -10,23 +10,27 @@ function Team() {
         This project is led by researchers at Rutgers WINLAB as part of the 2025 summer initiative.
       </p>
 
-      <div className="flex justify-center items-start gap-12 flex-wrap">
-        <div className="flex flex-col items-center text-center space-y-1">
-          <img src={arshiaimg} alt="Arshia Garg" className="w-20 h-20 object-cover rounded-full shadow" />
+      {/* Horizontally aligned team section */}
+      <div className="flex justify-center items-start gap-12 flex-nowrap overflow-x-auto">
+        {/* Arshia */}
+        <div className="flex flex-col items-center text-center space-y-1 min-w-[150px]">
+          <img src={arshiaimg} alt="Arshia Garg" className="w-24 h-24 object-cover rounded-full shadow" />
           <h3 className="text-lg font-semibold">Arshia Garg</h3>
-          <p className="text-sm text-gray-600">Researcher</p>
+          <p className="text-sm text-gray-400">Researcher</p>
         </div>
 
-        <div className="flex flex-col items-center text-center space-y-1">
-          <img src={neilimg} alt="Neil Samant" className="w-20 h-20 object-cover rounded-full shadow" />
+        {/* Neil */}
+        <div className="flex flex-col items-center text-center space-y-1 min-w-[150px]">
+          <img src={neilimg} alt="Neil Samant" className="w-24 h-24 object-cover rounded-full shadow" />
           <h3 className="text-lg font-semibold">Neil Samant</h3>
-          <p className="text-sm text-gray-600">Researcher</p>
+          <p className="text-sm text-gray-400">Researcher</p>
         </div>
 
-        <div className="flex flex-col items-center text-center space-y-1">
-          <img src={yaoimg} alt="Yao Liu" className="w-20 h-20 object-cover rounded-full shadow" />
+        {/* Yao */}
+        <div className="flex flex-col items-center text-center space-y-1 min-w-[150px]">
+          <img src={yaoimg} alt="Yao Liu" className="w-24 h-24 object-cover rounded-full shadow" />
           <h3 className="text-lg font-semibold">Yao Liu</h3>
-          <p className="text-sm text-gray-600">Faculty Advisor</p>
+          <p className="text-sm text-gray-400">Faculty Advisor</p>
         </div>
       </div>
     </div>
