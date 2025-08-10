@@ -10,22 +10,22 @@ function Team() {
         This project is led by researchers at Rutgers WINLAB as part of the 2025 summer initiative.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pt-6">
-        <div className="flex flex-col items-center text-center space-y-2">
-          <img src={arshiaimg} alt="Arshia Garg" className="w-32 h-32 object-cover rounded-full shadow" />
-          <h3 className="text-xl font-semibold">Arshia Garg</h3>
+      <div className="flex justify-center items-start gap-12 flex-wrap">
+        <div className="flex flex-col items-center text-center space-y-1">
+          <img src={arshiaimg} alt="Arshia Garg" className="w-20 h-20 object-cover rounded-full shadow" />
+          <h3 className="text-lg font-semibold">Arshia Garg</h3>
           <p className="text-sm text-gray-600">Researcher</p>
         </div>
 
-        <div className="flex flex-col items-center text-center space-y-2">
-          <img src={neilimg} alt="Neil Samant" className="w-32 h-32 object-cover rounded-full shadow" />
-          <h3 className="text-xl font-semibold">Neil Samant</h3>
+        <div className="flex flex-col items-center text-center space-y-1">
+          <img src={neilimg} alt="Neil Samant" className="w-20 h-20 object-cover rounded-full shadow" />
+          <h3 className="text-lg font-semibold">Neil Samant</h3>
           <p className="text-sm text-gray-600">Researcher</p>
         </div>
 
-        <div className="flex flex-col items-center text-center space-y-2">
-          <img src={yaoimg} alt="Yao Liu" className="w-32 h-32 object-cover rounded-full shadow" />
-          <h3 className="text-xl font-semibold">Yao Liu</h3>
+        <div className="flex flex-col items-center text-center space-y-1">
+          <img src={yaoimg} alt="Yao Liu" className="w-20 h-20 object-cover rounded-full shadow" />
+          <h3 className="text-lg font-semibold">Yao Liu</h3>
           <p className="text-sm text-gray-600">Faculty Advisor</p>
         </div>
       </div>
