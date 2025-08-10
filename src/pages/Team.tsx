@@ -24,8 +24,8 @@ function Team() {
             src={arshiaimg}
             alt="Arshia Garg"
             style={{
-              width: "100px",
-              height: "100px",
+              width: "140px",
+              height: "140px",
               objectFit: "cover",
               borderRadius: "50%",
               marginBottom: "0.5rem",
@@ -41,8 +41,8 @@ function Team() {
             src={neilimg}
             alt="Neil Samant"
             style={{
-              width: "100px",
-              height: "100px",
+              width: "140px",
+              height: "140px",
               objectFit: "cover",
               borderRadius: "50%",
               marginBottom: "0.5rem",
@@ -58,8 +58,8 @@ function Team() {
             src={yaoimg}
             alt="Yao Liu"
             style={{
-              width: "100px",
-              height: "100px",
+              width: "140px",
+              height: "140px",
               objectFit: "cover",
               borderRadius: "50%",
               marginBottom: "0.5rem",
